@@ -1,2 +1,1 @@
-https://capsule-render.vercel.app/api?
-insurance predict
+https://capsule-render.vercel.app/api? insurance predict
