@@ -28,8 +28,8 @@ def run_home_app() :
         smoker = 1
     else :
         smoker = 0
-    bmi = st.sidebar.number_input('체질량지수 입력',15.0,50.0)
-    children = st.sidebar.number_input('자녀 수 입력',0,10)
+    bmi = st.sidebar.number_input('체질량 지수',15.0,50.0)
+    children = st.sidebar.number_input('자녀 수',0,10)
     # -------- 리그레서에 들어갈 예상 데이터인 뉴 데이터 입력받기
 
 
