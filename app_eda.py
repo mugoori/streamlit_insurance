@@ -15,10 +15,16 @@ def run_eda_app() :
     df = df.replace('male',1)
     df = df.replace('yes',1)
     df = df.replace('no',0)
-    st.subheader('사용된 데이터 프레임')
-    st.dataframe(df.head(3))
-    st.subheader('기초 통계')
-    st.dataframe(df.describe())
+    # ----------------------------- 데이터 가공
+
+
+    show_df = st.checkbox('데이터 프레임')
+    if show_df :
+        st.dataframe(df.head(3))
+    show_df2 = st.checkbox('기초 통계')
+    if show_df2 :
+        st.dataframe(df.describe())
+    # ----------------------------  데이터 프레임 / 기초 통계 보여주기
 
 
     st.subheader('컬럼 별 히스토그램')
@@ -32,6 +38,7 @@ def run_eda_app() :
     plt.xlabel(choice2)
     plt.ylabel('Count')
     st.pyplot(fig)
+    # --------------------------- 컬럼 별 히스토그램 보여주기
 
 
     st.subheader('상관 관계')
@@ -44,3 +51,4 @@ def run_eda_app() :
         fig2 = plt.figure()
         sb.heatmap(data=df_corr,annot=True, fmt='.2f',cmap='coolwarm',vmin=-1,vmax=1,linewidths=0.5)
         st.pyplot(fig2)   
+    # -------------------------- 컬럼 별 상관관계 보여주기
