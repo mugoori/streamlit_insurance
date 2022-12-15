@@ -4,7 +4,7 @@ from app_eda import run_eda_app
 from app_ml import run_ml_app
 
 def main() :
-    st.title('보험료 예측 앱')
+    st.title('insurance predict')
 
     menu = ['Home','EDA','ML']
     choice = st.sidebar.selectbox('메뉴',menu)

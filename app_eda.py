@@ -8,17 +8,18 @@ import altair as alt
 import plotly.express as px
 
 def run_eda_app() :
-    st.subheader('사용된 데이터 프레임')
+
     df = pd.read_csv('i_data/insurance.csv')
     df = df.rename(columns={'sex':'gender'})
     df = df.replace('female',0)
     df = df.replace('male',1)
     df = df.replace('yes',1)
     df = df.replace('no',0)
+    st.subheader('사용된 데이터 프레임')
     st.dataframe(df.head(3))
-
-    st.subheader('기본 통계 데이터')
+    st.subheader('기초 통계')
     st.dataframe(df.describe())
+
 
     st.subheader('컬럼 별 히스토그램')
     column = df.columns[0:]
