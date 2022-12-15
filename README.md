@@ -35,3 +35,8 @@
 ### LinearRegression 을 통해 모델링해서 학습 시킨 데이터의 양이 너무 적어
 ### 나이가 매우 어리거나 체질량 지수가 너무 낮을 경우 마이너스의 데이터가 나온다
 ### 디버깅을 위해서는 더 많은 양의 데이터가 필요할 것 같다
+
+# 프로젝트에 사용한 데이터 출처
+
+### 보험료 데이터 : https://www.kaggle.com/datasets/mirichoi0218/insurance
+### 동영상 데이터 : https://www.youtube.com/watch?v=47cAxRX3aDg&t=0s
