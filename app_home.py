@@ -8,13 +8,13 @@ def run_home_app() :
     # ------- 풍선 날리기
 
 
-    st.video('https://www.youtube.com/watch?v=47cAxRX3aDg&t=0s')
-    # ------- 동영상 보여주기
-
-
     st.subheader('환영합니다.')
     st.subheader('좌측 사이드바에 데이터를 넣으면 보험료를 예측해줍니다.')
     # ------- 홈 화면 문자 표시
+
+
+    st.video('https://www.youtube.com/watch?v=47cAxRX3aDg&t=0s')
+    # ------- 동영상 보여주기
 
 
     age = st.sidebar.number_input('나이 입력',18,100)
@@ -45,7 +45,7 @@ def run_home_app() :
     y_pred = regressor.predict(new_data)
     y_pred = round(y_pred[0])
     # ---------  결과값 예측해서 저장하기
-    
+
    
     st.sidebar.text('당신의 예상 보험료는 {} 달러 입니다.'.format(y_pred))
     # ---------  결과값 보여주기

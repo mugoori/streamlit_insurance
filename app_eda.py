@@ -8,6 +8,7 @@ import altair as alt
 import plotly.express as px
 
 def run_eda_app() :
+    st.text('데이터 출처 : https://www.kaggle.com/datasets/mirichoi0218/insurance')
 
     df = pd.read_csv('i_data/insurance.csv')
     df = df.rename(columns={'sex':'gender'})
