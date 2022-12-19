@@ -52,7 +52,7 @@ def run_home_app() :
     st.sidebar.text('당신의 예상 보험료는 {} 달러 입니다.'.format(y_pred))
     # ---------  결과값 보여주기
 
-    st.text('데이터 출처 : https://www.kaggle.com/datasets/mirichoi0218/insurance')
+
 
     df = pd.read_csv('i_data/insurance.csv')
     df = df.rename(columns={'sex':'gender'})
