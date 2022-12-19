@@ -87,7 +87,7 @@ def run_home_app() :
 
 
     st.subheader('상관 관계')
-    selected_list = st.multiselect('상관 분석을 하고싶은 컬럼을 선택하세요',column)
+    selected_list = st.multiselect('보험료의 증감 유무를 알고 싶은 컬럼을 선택하세요',column,default='charges')
 
     if len(selected_list) >= 2 :
 
