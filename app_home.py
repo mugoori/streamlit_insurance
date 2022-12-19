@@ -10,7 +10,6 @@ import plotly.express as px
 
 def run_home_app() :
 
-    st.subheader('환영합니다.')
     st.subheader('좌측 사이드바에 데이터를 넣으면 보험료를 예측해줍니다.')
     # ------- 홈 화면 문자 표시
 
