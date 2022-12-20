@@ -17,9 +17,8 @@ def run_eda_app() :
     df = df.replace('no',0)
     df2 = pd.read_csv('i_data/df2.csv')
     # ----------------------------- 데이터 가공
+    st.subheader('각 컬럼별 의미')
 
-
-    st.text('각 컬럼별 설명')
     st.text('age : 나이')
     st.text('gender : 성별')
     st.text('bmi : 체질량 지수')
@@ -28,7 +27,7 @@ def run_eda_app() :
     st.text('charges : 보험료')    
     # ----------------------------- 각 컬럼별 설명
 
-
+    st.subheader('사용된 데이터 프레임 및 기초 통계')
     show_df = st.checkbox('사용된 데이터 프레임')
     if show_df :
         st.dataframe(df.head(3))
@@ -37,14 +36,13 @@ def run_eda_app() :
         st.dataframe(df.describe())
     # ----------------------------  데이터 프레임 / 기초 통계 보여주기
 
-
+    st.subheader('나이,체질량,보험료의 최대 최소값')
     column_list = df2.columns[1:4]
-    selected_column = st.selectbox('컬럼을 선택하세요.',column_list)   
+    selected_column = st.radio('컬럼을 선택하세요',column_list)   
     df_max = df2.loc[df[selected_column] == df2[selected_column].max(),]
     df_min = df2.loc[df[selected_column] == df2[selected_column].min(),]
-    st.text('최대 데이터')
+
     st.dataframe(df_max)
-    st.text('최소 데이터')
     st.dataframe(df_min)
     # --------------------------- 데이터의 최대 최소값
 
