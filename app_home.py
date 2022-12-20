@@ -4,9 +4,6 @@ import joblib
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sb
-import platform
-import altair as alt
-import plotly.express as px
 
 def run_home_app() :
 
