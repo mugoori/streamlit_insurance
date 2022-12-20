@@ -18,12 +18,15 @@
 ### visual studio code 를 사용하여 작업 했으며
 ### Home 화면에 타이틀과 동영상이 들어가고 페이지를 열고 바로 이용할 수 있게
 ### 좌측 사이드바에 사용자의 데이터를 넣을수 있게 하였다 
-### 사용된 데이터, 기초통계, 히스토그램, 상관관계를 넣었다
-### 사용자의 사용 편의를 위해 한눈에 보일수 있도록 한 페이지로 제작하였다
+### EDA에는 각 컬럼별 의미, 나이/BMI/보험료의 최대최소, 사용된 데이터, 기초통계, 히스토그램, 상관관계를 넣었다
 
-# 앱 사용법
+# 앱 사용법과 스크린샷
 
-![화면 캡처 2022-12-15 152932](https://user-images.githubusercontent.com/120348468/207788806-54813a94-e4cd-4167-b673-06ddfd6411cd.png)
+![화면 캡처 2022-12-20 165516](https://user-images.githubusercontent.com/120348468/208613812-190a99a2-f43e-4adb-82c4-6f2db7b361cc.png)
+![화면 캡처 2022-12-20 165458](https://user-images.githubusercontent.com/120348468/208613879-04e50e1f-1544-4575-9ebe-9e3780b7e639.png)
+![화면 캡처 2022-12-20 165233](https://user-images.githubusercontent.com/120348468/208613928-6c9b053a-ae62-4c9f-bb4c-af210492df45.png)
+![화면 캡처 2022-12-20 165246](https://user-images.githubusercontent.com/120348468/208613958-328f59e9-17ea-45ca-91bf-334dd6289e97.png)
+![화면 캡처 2022-12-20 165300](https://user-images.githubusercontent.com/120348468/208613966-4512b420-3773-4e44-ae4f-16a0d1346a89.png)
 
 
 ### 사이드바에 순서대로 나이, 성별, 체질량 지수, 자녀의 수, 흡연유무를 넣고
