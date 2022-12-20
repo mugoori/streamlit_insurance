@@ -4,9 +4,6 @@ import joblib
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sb
-import platform
-import altair as alt
-import plotly.express as px
 
 def run_eda_app() :
     st.sidebar.image('https://img.hankyung.com/photo/202002/AA.21765513.1.jpg')
