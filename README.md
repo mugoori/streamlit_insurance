@@ -2,7 +2,7 @@
 
 ⚒️ Tools
 
-<img src="https://img.shields.io/badge/Github-181717?style=flat-square&logo=GitHub&logoColor=white"/> <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/> <img src="https://img.shields.io/badge/Jupyter notebook-F37626?style=flat-square&logo=Jupyter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Github-181717?style=flat-square&logo=GitHub&logoColor=white"/> <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/> <img src="https://img.shields.io/badge/Jupyter notebook-F37626?style=flat-square&logo=Jupyter&logoColor=white"/> <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"/>
 
 📜 language
 
@@ -10,16 +10,21 @@
 
 # 앱 설명
 
-### 이 프로젝트는 사용자의 데이터 ( 나이, 성별, 체질량지수, 자녀의 수, 흡연유무 ) 를 통하여 보험료를 예측해준다.
+### 이 프로젝트는 사용자의 데이터 ( 나이, 성별, 체질량지수, 자녀의 수, 흡연유무 ) 를 통하여 보험료를 예측해줍니다.
 
-### 해당 프로젝트에는 jupyter notebook 을 사용하여 보험료 데이터를 가져와 기초통계를 분석하고  
+## Jupyter notebook
 ### 컬럼 별 히스토그램, 상관관계를 분석하였고
 ### LinearRegression 모델을 통해 값을 예측하도록 모델링해 학습시켰다
-### visual studio code 를 사용하여 streamlit 라이브러리를 통해 작업했으며
-### Home 화면에 타이틀과 동영상이 들어가고 페이지를 열고 바로 이용할 수 있게
+
+## visual studio code 
+### streamlit 라이브러리를 통해서 Home 화면에 타이틀과 동영상을 넣고 페이지를 열고 바로 이용할 수 있게
 ### 좌측 사이드바에 사용자의 데이터를 넣을수 있게 하였다 
 ### EDA에는 각 컬럼별 의미, 나이/BMI/보험료의 최대최소, 사용된 데이터, 기초통계, 히스토그램, 상관관계를 넣었다
-### 또한 SSH를 통해서 데이터를 업데이트하는것이 아닌 Actions를 통해 바로 ec2에 업데이트하게 설정하였다
+
+## AWS EC2
+### SSH를 통해서 데이터를 업데이트하는것이 아닌 Actions를 통해 바로 ec2에 업데이트하게 설정하였다
+
+
 
 # 앱 사용법과 스크린샷
 
