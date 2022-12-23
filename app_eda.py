@@ -17,8 +17,8 @@ def run_eda_app() :
     df = df.replace('no',0)
     df2 = pd.read_csv('i_data/df2.csv')
     # ----------------------------- 데이터 가공
-    st.subheader('각 컬럼별 의미')
 
+    st.subheader('각 컬럼별 의미')
     st.text('age : 나이')
     st.text('gender : 성별 여 0 남 1')
     st.text('bmi : 체질량 지수')
