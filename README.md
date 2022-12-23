@@ -48,4 +48,4 @@
 # 프로젝트에 사용한 데이터 출처
 
 ### 보험료 데이터 : https://www.kaggle.com/datasets/mirichoi0218/insurance
-### 동영상 데이터 : https://www.youtube.com/watch?v=47cAxRX3aDg&t=0s
+### 동영상 데이터 : https://www.youtube.com/watch?v=eZqZJXG3HBk
