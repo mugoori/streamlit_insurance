@@ -32,7 +32,7 @@
 ![화면 캡처 2022-12-23 112351](https://user-images.githubusercontent.com/120348468/209258525-df921d17-0bc6-48d2-bbfb-0133910412a5.png)
 ![화면 캡처 2022-12-23 112406](https://user-images.githubusercontent.com/120348468/209258531-a64c709b-4e29-4beb-aa4c-81f03382cc36.png)
 ![화면 캡처 2022-12-23 112432](https://user-images.githubusercontent.com/120348468/209258534-9a8d5608-2b39-48b1-b881-bcdc2b66e3ec.png)
-
+![화면 캡처 2022-12-23 112724](https://user-images.githubusercontent.com/120348468/209258785-38bc27a0-32a4-4229-b423-0ac34c4c3e04.png)
 
 ### 사이드바에 순서대로 나이, 성별, 체질량 지수, 자녀의 수, 흡연유무를 넣고
 ### 기다리면 하단에 예상 보험료가 나온다
