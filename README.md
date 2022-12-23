@@ -28,11 +28,10 @@
 
 # 앱 사용법과 스크린샷
 
-![화면 캡처 2022-12-20 165516](https://user-images.githubusercontent.com/120348468/208613812-190a99a2-f43e-4adb-82c4-6f2db7b361cc.png)
-![화면 캡처 2022-12-20 165458](https://user-images.githubusercontent.com/120348468/208613879-04e50e1f-1544-4575-9ebe-9e3780b7e639.png)
-![화면 캡처 2022-12-20 165233](https://user-images.githubusercontent.com/120348468/208613928-6c9b053a-ae62-4c9f-bb4c-af210492df45.png)
-![화면 캡처 2022-12-20 165246](https://user-images.githubusercontent.com/120348468/208613958-328f59e9-17ea-45ca-91bf-334dd6289e97.png)
-![화면 캡처 2022-12-20 165300](https://user-images.githubusercontent.com/120348468/208613966-4512b420-3773-4e44-ae4f-16a0d1346a89.png)
+![화면 캡처 2022-12-23 112334](https://user-images.githubusercontent.com/120348468/209258518-8c09dcfc-cd95-48d5-bdd5-36f9fd3020cf.png)
+![화면 캡처 2022-12-23 112351](https://user-images.githubusercontent.com/120348468/209258525-df921d17-0bc6-48d2-bbfb-0133910412a5.png)
+![화면 캡처 2022-12-23 112406](https://user-images.githubusercontent.com/120348468/209258531-a64c709b-4e29-4beb-aa4c-81f03382cc36.png)
+![화면 캡처 2022-12-23 112432](https://user-images.githubusercontent.com/120348468/209258534-9a8d5608-2b39-48b1-b881-bcdc2b66e3ec.png)
 
 
 ### 사이드바에 순서대로 나이, 성별, 체질량 지수, 자녀의 수, 흡연유무를 넣고
