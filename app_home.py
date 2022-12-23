@@ -11,7 +11,7 @@ def run_home_app() :
     # ------- 홈 화면 문자 표시
 
 
-    st.video('https://www.youtube.com/watch?v=47cAxRX3aDg&t=0s')
+    st.video('https://www.youtube.com/watch?v=eZqZJXG3HBk')
     # ------- 동영상 보여주기
 
 
