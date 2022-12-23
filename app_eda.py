@@ -20,10 +20,10 @@ def run_eda_app() :
     st.subheader('각 컬럼별 의미')
 
     st.text('age : 나이')
-    st.text('gender : 성별')
+    st.text('gender : 성별 여 0 남 1')
     st.text('bmi : 체질량 지수')
     st.text('children : 자녀의 수')
-    st.text('smoker : 흡연자 1 비흡연자 0')
+    st.text('smoker : 비흡연 0 흡연 1')
     st.text('charges : 보험료')    
     # ----------------------------- 각 컬럼별 설명
 
