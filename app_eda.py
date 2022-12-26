@@ -15,7 +15,7 @@ def run_eda_app() :
     df = df.replace('male',1)
     df = df.replace('yes',1)
     df = df.replace('no',0)
-    df2 = pd.read_csv('i_data/df2.csv')
+    df2 = pd.read_csv('i_data/df2.csv') # df2 는 컬럼의 순서를 바꿨다
     # ----------------------------- 데이터 가공
 
     st.subheader('각 컬럼별 의미')
